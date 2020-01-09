@@ -9,7 +9,9 @@ here = os.path.abspath(os.path.dirname(__file__))
 if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist bdist_wheel')
     os.system('twine upload dist/*')
-    sys.exit()packages = ['actions', 'apiclient', 'hvclient', 'logger', 'mapping', 'verbs']
+    sys.exit()
+
+packages = ['actions', 'apiclient', 'hvclient', 'logger', 'mapping', 'verbs']
 
 package_dir = {
     'actions': 'src/',
