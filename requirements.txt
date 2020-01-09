@@ -1,4 +1,3 @@
-ansible==2.6.8
 hvac==0.9.6
 openshift==0.9.0
 ruamel.yaml==0.15.97

@@ -22,7 +22,6 @@ package_dir = {
 
 requires = [
     'openshift==0.9.0',
-    'ansible==2.6.8',
     'hvac==0.9.6',
     'ruamel.yaml==0.15.97'
 ]
