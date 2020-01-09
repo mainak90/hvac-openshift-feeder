@@ -36,5 +36,7 @@ def main(args=None):
     else:
         logging.info('Missing either of the mandatory params --action, --path and --out, please re-renter with proper params')
         print('Missing either of the mandatory params --action, --path and --out, please re-renter with proper params')
-        sys.exit(1)if __name__ == '__main__':
+        sys.exit(1)
+
+if __name__ == '__main__':
     sys.exit(main())
