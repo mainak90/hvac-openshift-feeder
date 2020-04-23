@@ -10,7 +10,7 @@ from src.create import Create
 
 
 class Mapping(object):
-    def __init__(self, templatepath=None, outputpath=None, namespace='swift-alliancecloud-pilot', mountpath='secret', key='Value', pushconfig='False'):
+    def __init__(self, templatepath=None, outputpath=None, namespace='default', mountpath='secret', key='Value', pushconfig='False'):
         self.templatepath = templatepath
         self.outputpath = outputpath
         self.mountpath = mountpath
